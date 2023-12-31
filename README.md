@@ -36,3 +36,5 @@ Our primary goal is to conduct EDA on the provided dataset and derive valuable c
  - total_of_special_requests: total no. of special request.
  - reservation_status: Whether a customer has checked out or canceled,or not showed 
  - reservation_status_date: Date of making reservation status.
+Total 119390 rows and 32 columns in dataset
+## Data Cleaning and Feature Engineering
