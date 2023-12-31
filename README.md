@@ -1,7 +1,7 @@
 # Hotel-booking-analysis
-##Objective
+## Objective
 Our primary goal is to conduct EDA on the provided dataset and derive valuable conclusions about broad hotel booking trends and how various factors interact to affect hotel bookings.
-##Dataset
+## Dataset
  We get a dataset of hotel reservations. A city hotel and a resort hotel's reservations are included in this dataset. It has the following features:
  - hotel: Name of hotel ( City or Resort)
  - is_canceled: Whether the booking is canceled or not (0 for no canceled and 1 for canceled)
