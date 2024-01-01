@@ -66,30 +66,44 @@ Sklearn
  ## Exploratory Data Analysis:
  Performed EDA and tried answering the following questions:
  
- Q1) Which hotel is most preferred?
- Q2) Hotel Wise Bookings based on Date and Month also What is the trend of bookings within a month ?
- Q3) Country Wise - Number of Bookings ?
- Q4) Which agent is making maximum Bookings ?
- Q5) Which room type is in most demand and which room type generates the  highest average daily rate?
- Q6) How long do people stay at the hotels?
- Q7) What is preferred stay length in each hotel based on weekday nights and weekend nights ?
- Q8) Cancellation rates in both the hotels?
- Q9) Which room generates highest Average daily rate?
- Q10)Which hotel has longest waiting list?
- Q11) Is thier any Special request given by the customer to hotels?
- Q12) Which channel is mostly used for the booking of hotels? 
- Q13) Which types of customers mostly make bookings?
- Q14) How many customers are most likely to require a parking space?
- Q15)Which customer type generates more revenue in terms of hotel types and customer types?
+  Q1) Which hotel is most preferred?
+ 
+  Q2) Hotel Wise Bookings based on Date and Month also What is the trend of bookings within a month ?
+ 
+  Q3) Country Wise - Number of Bookings ?
+ 
+  Q4) Which agent is making maximum Bookings ?
+ 
+  Q5) Which room type is in most demand and which room type generates the  highest average daily rate?
+ 
+  Q6) How long do people stay at the hotels?
+ 
+  Q7) What is preferred stay length in each hotel based on weekday nights and weekend nights ?
+ 
+  Q8) Cancellation rates in both the hotels?
+ 
+  Q9) Which room generates highest Average daily rate?
+ 
+  Q10)Which hotel has longest waiting list?
+ 
+  Q11) Is thier any Special request given by the customer to hotels?
+ 
+  Q12) Which channel is mostly used for the booking of hotels? 
+ 
+  Q13) Which types of customers mostly make bookings?
+ 
+  Q14) How many customers are most likely to require a parking space?
+ 
+  Q15)Which customer type generates more revenue in terms of hotel types and customer types?
 
  Mainly performed using Matplotlib and Seaborn library and the following graph and plots had been used:
 
- -Bar Plot.
- -Scatter Plot.
- -Pie Chart.
- -Line Plot.
- -Heatmap.
- -Box Plot
+  -Bar Plot.
+  -Scatter Plot.
+  -Pie Chart.
+  -Line Plot.
+  -Heatmap.
+  -Box Plot
  
  ## Conclusion:
   - The top country with the most number of bookings is PRT, and the number one agent with the most number of bookings is 9. 
