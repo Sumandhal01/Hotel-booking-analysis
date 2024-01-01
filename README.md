@@ -50,14 +50,18 @@ Sklearn
 ## Data Cleaning and Feature Engineering:
  [1] Removing Duplicate Values
  - Rows that were duplicates were removed.
+   
  [2] Handling Null / Missing Values
  - Children, country, and agent are discrete numerical variables, so replaced null values with mode of it.
  - Variable company had null values greater than 50%, so removed it.
+   
  [3] Removing Outliers
  - Interquartile Range in the skew symmetric curve used to remove outliers found in the lead_time and adr variables.
+   
  [4] Converting Columns to Appropriate Data Types
  - Datatypes of variables "children," "agent," "reservation_status_date," "total_people," and "total_children" were transformed from float64 datatypes to int64.
  - Datatype of the variable "reservation_status_date" was transformed from object datatype to datetime64.
+   
  [5] Created New Columns
  - The variable "stay_length" is created by adding the variables "stays_in_weekend_nights" and "stays_in_weeknights."
  - The variable "total_person" is created by adding the variables "adults," "children," and "babies."
@@ -98,12 +102,12 @@ Sklearn
 
  Mainly performed using Matplotlib and Seaborn library and the following graph and plots had been used:
 
-  -Bar Plot.
-  -Scatter Plot.
-  -Pie Chart.
-  -Line Plot.
-  -Heatmap.
-  -Box Plot
+  - Bar Plot.
+  - Scatter Plot.
+  - Pie Chart.
+  - Line Plot.
+  - Heatmap.
+  - Box Plot
  
  ## Conclusion:
   - The top country with the most number of bookings is PRT, and the number one agent with the most number of bookings is 9. 
