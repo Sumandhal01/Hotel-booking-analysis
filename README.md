@@ -125,7 +125,7 @@ Sklearn
  - Not assigning a reserved room does not affect ADR.
 
    ## Challenges:
-   (1) Lot of null values were present in the dataset.
-   (2) It was challenging to select the best visualization techniques.
-   (3) Lot of duplicate data.
-   (4)The improper data type format was used for the data.
+   - Lot of null values were present in the dataset.
+   - It was challenging to select the best visualization techniques.
+   - Lot of duplicate data.
+   - The improper data type format was used for the data.
