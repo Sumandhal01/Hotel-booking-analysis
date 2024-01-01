@@ -38,4 +38,76 @@ Our primary goal is to conduct EDA on the provided dataset and derive valuable c
  - reservation_status_date: Date of making reservation status.
 
 Total 119390 rows and 32 columns in dataset
-## Data Cleaning and Feature Engineering
+
+## Library used
+We have used Python 3 to its following packages:
+
+Pandas
+Matplotlib
+Seaborn
+Sklearn
+
+## Data Cleaning and Feature Engineering:
+ [1] Removing Duplicate Values
+ - Rows that were duplicates were removed.
+ [2] Handling Null / Missing Values
+ - Children, country, and agent are discrete numerical variables, so replaced null values with mode of it.
+ - Variable company had null values greater than 50%, so removed it.
+ [3] Removing Outliers
+ - Interquartile Range in the skew symmetric curve used to remove outliers found in the lead_time and adr variables.
+ [4] Converting Columns to Appropriate Data Types
+ - Datatypes of variables "children," "agent," "reservation_status_date," "total_people," and "total_children" were transformed from float64 datatypes to int64.
+ - Datatype of the variable "reservation_status_date" was transformed from object datatype to datetime64.
+ [5] Created New Columns
+ - The variable "stay_length" is created by adding the variables "stays_in_weekend_nights" and "stays_in_weeknights."
+ - The variable "total_person" is created by adding the variables "adults," "children," and "babies."
+ - From variables "children" and "babies," a new "kids" variable is created by adding both of them.
+ - The variable "total_person" used to create "guest_type."
+ ## Exploratory Data Analysis:
+ Performed EDA and tried answering the following questions:
+ 
+ Q1) Which hotel is most preferred?
+ Q2) Hotel Wise Bookings based on Date and Month also What is the trend of bookings within a month ?
+ Q3) Country Wise - Number of Bookings ?
+ Q4) Which agent is making maximum Bookings ?
+ Q5) Which room type is in most demand and which room type generates the  highest average daily rate?
+ Q6) How long do people stay at the hotels?
+ Q7) What is preferred stay length in each hotel based on weekday nights and weekend nights ?
+ Q8) Cancellation rates in both the hotels?
+ Q9) Which room generates highest Average daily rate?
+ Q10)Which hotel has longest waiting list?
+ Q11) Is thier any Special request given by the customer to hotels?
+ Q12) Which channel is mostly used for the booking of hotels? 
+ Q13) Which types of customers mostly make bookings?
+ Q14) How many customers are most likely to require a parking space?
+ Q15)Which customer type generates more revenue in terms of hotel types and customer types?
+
+ Mainly performed using Matplotlib and Seaborn library and the following graph and plots had been used:
+
+ -Bar Plot.
+ -Scatter Plot.
+ -Pie Chart.
+ -Line Plot.
+ -Heatmap.
+ -Box Plot
+ 
+ ## Conclusion:
+  - The top country with the most number of bookings is PRT, and the number one agent with the most number of bookings is 9. 
+ - Customers favored city hotels more than resort hotels.
+ - One of the four reservations is canceled.
+ - The Online (internet) platform is used to make the majority of bookings.
+ - The majority of the bookings are made using TA/TO, the leading distribution channel.
+ - The customer wants Room A to be reserved the most.
+ - Customers favored making a hotel reservation for a short visit.
+ - Only of people require space to park their cars.
+ - Most visitors are couples.
+ - Booking cancellations are not caused by a longer Lead time.
+ - A city hotel is busier than a resort.
+ - The busiest months for hotels are October and September. There isn't a lengthy wait for reservations in July.
+ - Not assigning a reserved room does not affect ADR.
+
+   ## Challenges:
+   (1) Lot of null values were present in the dataset.
+   (2) It was challenging to select the best visualization techniques.
+   (3) Lot of duplicate data.
+   (4)The improper data type format was used for the data.
