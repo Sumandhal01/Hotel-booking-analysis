@@ -45,7 +45,7 @@ We have used Python 3 to its following packages:
 Pandas
 Matplotlib
 Seaborn
-Sklearn
+Math
 
 ## Data Cleaning and Feature Engineering:
  [1] Removing Duplicate Values
