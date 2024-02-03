@@ -40,16 +40,14 @@ Our primary goal is to conduct EDA on the provided dataset and derive valuable c
 Total 119390 rows and 32 columns in dataset
 
 ## Library used
-We have used Python 3 to its following packages:
-
-Pandas
-Matplotlib
-Seaborn
-Math
+ - Pandas
+ - Matplotlib
+ - Seaborn
+ - Math
 
 ## Data Cleaning and Feature Engineering:
  [1] Removing Duplicate Values
- - Rows that were duplicates were removed.
+ - Duplicate values were removed.
    
  [2] Handling Null / Missing Values
  - Children, country, and agent are discrete numerical variables, so replaced null values with mode of it.
@@ -63,10 +61,11 @@ Math
  - Datatype of the variable "reservation_status_date" was transformed from object datatype to datetime64.
    
  [5] Created New Columns
- - The variable "stay_length" is created by adding the variables "stays_in_weekend_nights" and "stays_in_weeknights."
- - The variable "total_person" is created by adding the variables "adults," "children," and "babies."
- - From variables "children" and "babies," a new "kids" variable is created by adding both of them.
- - The variable "total_person" used to create "guest_type."
+ - The variable "stay_length" from "stays_in_weekend_nights" and "stays_in_weeknights."
+ - The variable "total_person" from"adults," "children," and "babies."
+ - The variable "kids" from variables "children" and "babies," a new.
+ - The variable "guest_type" from "total_person".
+
  ## Exploratory Data Analysis:
  Performed EDA and tried answering the following questions:
  
@@ -100,7 +99,7 @@ Math
  
   Q15)Which customer type generates more revenue in terms of hotel types and customer types?
 
- Mainly performed using Matplotlib and Seaborn library and the following graph and plots had been used:
+ Mainly performed using Matplotlib and Seaborn library and the following plots had been used:
 
   - Bar Plot.
   - Scatter Plot.
@@ -108,6 +107,7 @@ Math
   - Line Plot.
   - Heatmap.
   - Box Plot
+  - Pair plot
  
  ## Conclusion:
   - The top country with the most number of bookings is PRT, and the number one agent with the most number of bookings is 9. 
@@ -126,6 +126,5 @@ Math
 
    ## Challenges:
    - Lot of null values were present in the dataset.
-   - It was challenging to select the best visualization techniques.
    - Lot of duplicate data.
    - The improper data type format was used for the data.
